@@ -1,0 +1,4 @@
+.*
+!.gitignore
+Dist-Zilla-Plugin-SanityTests-*
+Debian_CPANTS.txt

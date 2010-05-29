@@ -1,5 +1,5 @@
 package Dist::Zilla::Plugin::SanityTests;
-# ABSTRACT: Release tests to avoid insanity
+# ABSTRACT: DEPRECATED - Release tests to avoid insanity
 
 use Moose;
 use namespace::autoclean;
@@ -7,6 +7,10 @@ use namespace::autoclean;
 extends 'Dist::Zilla::Plugin::InlineFiles';
 
 =head1 DESCRIPTION
+
+B<NOTE:> This module is deprecated. Please use
+L<Dist::Zilla::Plugin::NoTabsTests> and
+L<Dist::Zilla::Plugin::EOLTests> instead.
 
 This is an extension of L<Dist::Zilla::Plugin::InlineFiles>, providing
 the following files:
